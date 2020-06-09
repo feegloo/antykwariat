@@ -1,0 +1,16 @@
+{
+  "name": "antykwariat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.mjs",
+  "scripts": {
+    "dev": "nodemon index.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.0",
+    "nodemon": "^2.0.4",
+    "top-level-await": "^1.1.0"
+  }
+}
