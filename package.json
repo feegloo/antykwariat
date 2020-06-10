@@ -4,13 +4,17 @@
   "description": "",
   "main": "index.mjs",
   "scripts": {
+    "start": "node -r @std/esm index.mjs",
     "dev": "nodemon index.mjs"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@std/esm": "^0.26.0",
+    "koa": "^2.12.0",
+    "koa-json": "^2.0.2",
+    "koa-router": "^9.0.1",
     "node-fetch": "^2.6.0",
-    "nodemon": "^2.0.4",
-    "top-level-await": "^1.1.0"
+    "nodemon": "^2.0.4"
   }
 }
